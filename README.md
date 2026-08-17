@@ -4,6 +4,7 @@
 
 ### End-to-end machine learning workflow · distributed training services · deployment architecture
 
+[![Portfolio Fork CI](https://github.com/anischelly26/ml_pipeline/actions/workflows/ci.yml/badge.svg)](https://github.com/anischelly26/ml_pipeline/actions/workflows/ci.yml)
 [![Python](https://img.shields.io/badge/Python-ML-111111?style=for-the-badge&logo=python)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-Orchestration-111111?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com/)
 [![Supabase](https://img.shields.io/badge/Supabase-Data-111111?style=for-the-badge&logo=supabase)](https://supabase.com/)
@@ -74,6 +75,20 @@ The project is designed around independently deployable components:
 - **Vercel** → frontend hosting
 
 See [`DEPLOYMENT_GUIDE.md`](./DEPLOYMENT_GUIDE.md) for the complete deployment flow.
+
+---
+
+## Fork-specific additions
+
+This fork adds a small but real engineering layer on top of the upstream codebase:
+
+- portfolio-focused technical documentation
+- explicit upstream / collaboration attribution
+- a lightweight GitHub Actions validation workflow
+- automatic Python source compilation checks for `backend/` and `spaces/`
+- structural checks for key deployment assets
+
+These additions are intentionally separated from the original project authorship rather than being presented as upstream work.
 
 ---
 
