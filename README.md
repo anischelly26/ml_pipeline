@@ -87,6 +87,7 @@ This fork adds a small but real engineering layer on top of the upstream codebas
 - a lightweight GitHub Actions validation workflow
 - automatic Python source compilation checks for `backend/` and `spaces/`
 - structural checks for key deployment assets
+- **fork-safe deployment behavior**: the upstream full-deployment workflow is manual instead of running on every push, preventing accidental deploy attempts when fork-specific secrets are not configured
 
 These additions are intentionally separated from the original project authorship rather than being presented as upstream work.
 
